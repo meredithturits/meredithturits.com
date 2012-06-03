@@ -108,9 +108,25 @@ section:hover a {
 
 article.text img {
     border: 1px dotted #cccccc;
-    float: right;
     padding: 8px;
-    margin: 0 0 8px 8px;
+}
+
+img.right {
+    float: right;
+    margin: 8px 0 8px 8px;
+}
+
+img.left {
+    float: left;
+    margin: 8px 8px 8px 0;
+}
+
+img.top {
+    margin-top: 0;
+}
+
+img.bottom {
+    margin-bottom: 0;
 }
 
 footer {
