@@ -1,0 +1,85 @@
+/**
+ * Colors used:
+ * Navy - #000033
+ * Pantone Cool Gray 10c - #777772
+ * "Mustard" Yellow - #f2bf08
+ * Light Gray - #cccccc
+ */
+
+/**
+ * This Font Software is licensed under the SIL Open Font License, Version 1.1.
+ * This license is copied below, and is also available with a FAQ at:
+ * http://scripts.sil.org/OFL
+ */
+@font-face {
+    font-family: 'JosefinSansStdLight';
+    src: url('fonts/josefin-sans/JosefinSansStd-Light-webfont.eot');
+    src: url('fonts/josefin-sans/JosefinSansStd-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/josefin-sans/JosefinSansStd-Light-webfont.woff') format('woff'),
+         url('fonts/josefin-sans/JosefinSansStd-Light-webfont.ttf') format('truetype'),
+         url('fonts/josefin-sans/JosefinSansStd-Light-webfont.svg#JosefinSansStdLight') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    color: #777772;
+    font-family: 'JosefinSansStdLight', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    max-width: 640px;
+    margin: 16px auto;
+    min-width: 320px;
+}
+
+header {
+    margin: 0 8px;
+}
+
+header h1 {
+    font-size: 64px;
+    font-weight: 100;
+    letter-spacing: -2px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+article {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: #000033;
+    float: left;
+    height: 200px;
+    margin: 8px;
+    padding: 0;
+    width: 304px;
+}
+
+section:hover {
+    background-color: #f2bf08;
+}
+
+section h1 {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+section a {
+    color: #cccccc;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    width: 100%;
+}
+
+section:hover a {
+    color: #000033;
+}
