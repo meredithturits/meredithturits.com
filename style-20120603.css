@@ -22,6 +22,10 @@
     font-style: normal;
 }
 
+a:link {
+    color: #000033;
+}
+
 body {
     color: #777772;
     font-family: 'JosefinSansStdLight', Helvetica, 'Helvetica Neue', Arial, sans-serif;
@@ -50,6 +54,15 @@ article {
     padding: 0;
 }
 
+article:after {
+    clear: both;
+    content: '.';
+    color: #fff;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+}
+
 section {
     background-color: #000033;
     float: left;
@@ -72,8 +85,12 @@ section h1 {
     padding: 0;
 }
 
-section a {
+section a:link,
+section a:visited {
     color: #cccccc;
+}
+
+section a {
     display: block;
     height: 100%;
     text-decoration: none;
@@ -82,4 +99,11 @@ section a {
 
 section:hover a {
     color: #000033;
+}
+
+footer {
+    border-top: 1px solid #cccccc;
+    font-size: 14px;
+    margin: 0 8px 32px 8px;
+    padding-top: 8px;
 }
