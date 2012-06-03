@@ -49,6 +49,11 @@ header h1 {
     text-align: center;
 }
 
+header h1 a {
+    color: #777772;
+    text-decoration: none;
+}
+
 article {
     margin: 0;
     padding: 0;
@@ -99,6 +104,13 @@ section a {
 
 section:hover a {
     color: #000033;
+}
+
+article.text img {
+    border: 1px dotted #cccccc;
+    float: right;
+    padding: 8px;
+    margin: 0 0 8px 8px;
 }
 
 footer {
