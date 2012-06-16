@@ -58,10 +58,15 @@ h1,
 h2,
 h3 {
     font-family: 'JosefinSansStdLight', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 100;
 }
 
 h2 {
     font-size: 20px;
+}
+
+strong {
+    font-weight: 400;
 }
 
 article {
