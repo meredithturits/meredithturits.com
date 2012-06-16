@@ -28,7 +28,7 @@ a:link {
 
 body {
     color: #777772;
-    font-family: 'JosefinSansStdLight', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+    font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
     font-size: 16px;
     font-weight: 100;
     max-width: 640px;
@@ -54,6 +54,16 @@ header h1 a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'JosefinSansStdLight', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+}
+
 article {
     margin: 0;
     padding: 0;
@@ -68,7 +78,7 @@ article:after {
     overflow: hidden;
 }
 
-section {
+.home section {
     background-color: #000033;
     float: left;
     height: 200px;
@@ -77,11 +87,11 @@ section {
     width: 304px;
 }
 
-section:hover {
+.home section:hover {
     background-color: #f2bf08;
 }
 
-section h1 {
+.home section h1 {
     font-size: 40px;
     font-weight: 100;
     line-height: 200px;
@@ -90,25 +100,38 @@ section h1 {
     padding: 0;
 }
 
-section a:link,
-section a:visited {
+.home section a:link,
+.home section a:visited {
     color: #cccccc;
 }
 
-section a {
+.home section a {
     display: block;
     height: 100%;
     text-decoration: none;
     width: 100%;
 }
 
-section:hover a {
+.home section:hover a {
     color: #000033;
+}
+
+section.synopsis {
+    padding-top: 1em;
 }
 
 article.text img {
     border: 1px dotted #cccccc;
     padding: 8px;
+}
+
+p.see-also {
+    font-style: italic;
+    margin-left: 40px;
+}
+
+p.see-also em {
+    font-style: normal;
 }
 
 img.right {
@@ -127,6 +150,10 @@ img.top {
 
 img.bottom {
     margin-bottom: 0;
+}
+
+dt {
+    margin-top: 8px;
 }
 
 footer {
